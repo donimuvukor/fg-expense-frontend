@@ -4,8 +4,42 @@ body{
 .card-img-overlay{
     text-align: center;
     margin-top: 7%
+} 
+
+.home-banner{
+    background-color: #00945E;
+    height: 60px;
+    color: #fff;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    
 }
 
+    /***************** PAGINATION******/
+    .table-footer > span {
+        margin: auto 0;
+        color: #191e29;
+    }
+    
+    .pagination a.active {
+        background-color: #00945e !important;
+        color: white !important;
+        border: 1px solid #00945e !important;
+    }
+    
+    .pagination a {
+        color: black !important;
+        background: #f2f2f2;
+        text-decoration: none !important;
+      }
+    .pagination a:hover:not(.active) {
+        background-color: #ddd !important;
+    }
 
 @media (max-width: 600px) {
     .card-img-overlay {

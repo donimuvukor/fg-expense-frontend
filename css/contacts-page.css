@@ -3,18 +3,35 @@
             box-sizing: border-box;
     font-family: 'Lato', sans-serif;
   }
-  
+ 
+
   body {
     margin: 0;
     padding: 0;
   }
-  
+  .logo{
+    margin-top: 0 !important ;
+  }
+  header ul li{
+      margin-top: 22px !important;
+  }
+
+
+  header ul li a {
+    display: block;
+     padding: 0 !important; 
+     font-size:inherit !important; 
+    text-decoration: none;
+    margin-right: 25px;
+    color: black;
+  }
   .main-section h2 {
     margin: 0;
     padding: 0.6rem;
-    padding-left: 4rem;
+    padding-left: 2.3em;
     background: #00945E;
     color: white;
+    margin-top: 5px;
   }
   
   .first {
@@ -22,7 +39,11 @@
     height: 60vh;
     padding: 7rem;
   }
-  
+  .first h2{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+  }
   .first h2, .first p {
     text-align: center;
     color: white;
@@ -31,6 +52,7 @@
     background: rgba(31, 36, 48, 0.8);
     color: white;
     margin: 4rem;
+    margin-bottom: 20px;
     padding-bottom: 2rem;
   }
   .container{
@@ -84,8 +106,15 @@ span{
   }
 
   .ministry{
+    display: inline-block;
    text-decoration: none;
-   margin: 4rem;
+
+margin: 3rem 0 3rem 0;
+
+
+  
+   
+
     padding: 5px 8px;
    color: black;
   }
@@ -117,12 +146,16 @@ span{
      }
   }
 
-    @media (max-width: 500px) { 
+    @media (max-width: 550px) { 
      .second {
        width: 90%; 
        margin: auto;
-       margin-top: 4rem;
-       margin-bottom: 4rem;
+
+       
+
+       margin-top: 20px;
+       margin-bottom: 20px;
+
      }
 
      .first {
@@ -132,11 +165,18 @@ span{
        padding-bottom: 50px;
      }
 
-      a {
+      .ministry {
        display: inline-block;
        width: 100%;
        margin: 0;
+         margin-bottom: 20px;
        text-align: center;
        padding: 5px 8px;
      }
+    }
+
+    @media only screen and (max-width: 425) {
+      .ministry {
+        margin: 20px 0 20px 0;
+      }
     }
